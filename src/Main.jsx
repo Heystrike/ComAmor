@@ -73,7 +73,7 @@ export default function Main() {
               {!id ? (
                 <>
                   <p className="font-semibold" align="center">"
-                    <b>Bom mesmo ter aceitado por livre espontânea vontade</b> 
+                    <b> Bom mesmo ter aceitado por livre espontânea vontade</b> 
                   </p>
 
                   <p align="center">Boa live! Qualquer coisa chama! Você é incrivel, o carentona. <br/> Nunca se esqueça disso!</p>
