@@ -26,9 +26,9 @@ export default function Form() {
       body: `{"phrase": "${data.phrase}", "question": "${data.question}"}`
     };
 
-    await fetch('', options)
+    await fetch('https://heystrike.github.io/ComAmor/', options)
       .then(response => response.json())
-      .then(response => { setLink("" + response.id); handleChange('loading', false) })
+      .then(response => { setLink("https://heystrike.github.io/ComAmor/" + response.id); handleChange('loading', false) })
   }
 
   return (
