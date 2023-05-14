@@ -24,7 +24,7 @@ export default function Main() {
     "Você está disposta a responder algumas perguntas?",
     "Você responderá com total sinceridade?",
     "Tem certeza de que deseja continuar?",
-    !question ? "Namora comigo? 💍" : question,
+    !question ? "Bora ir em um encontro?  🙂🙂 " : question,
   ]
 
   const handleYesAnswerButton = () => {
@@ -73,14 +73,13 @@ export default function Main() {
               {!id ? (
                 <>
                   <p className="font-semibold" align="center">"
-                    <b>Meu amor por você é igual um círculo, 360º"</b> - Danilo
+                    <b>Bom mesmo ter aceitado por livre espontânea vontade</b> 
                   </p>
 
-                  <p align="center">Te amo Bel, minha princesinha gatinha</p>
+                  <p align="center">Boa live! Qualquer coisa chama! Você é incrivel o carentona </p>
 
                   <img src={health} alt="" width={200} />
 
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
                 </>
               ) : (
                 <>
@@ -89,7 +88,6 @@ export default function Main() {
                   </p>
                   <img src={health} alt="" width={200} />
 
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
                 </>
               )}
             </div>
