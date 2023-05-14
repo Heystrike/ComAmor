@@ -76,7 +76,7 @@ export default function Main() {
                     <b>Bom mesmo ter aceitado por livre espontânea vontade</b> 
                   </p>
 
-                  <p align="center">Boa live! Qualquer coisa chama! Você é incrivel o carentona </p>
+                  <p align="center">Boa live! Qualquer coisa chama! Você é incrivel, o carentona. <br/> Nunca se esqueça disso!</p>
 
                   <img src={health} alt="" width={200} />
 
