@@ -26,9 +26,9 @@ export default function Form() {
       body: `{"phrase": "${data.phrase}", "question": "${data.question}"}`
     };
 
-    await fetch('https://heystrike.github.io/ComAmor/', options)
+    await fetch('https://for-bell-api.vercel.app/', options)
       .then(response => response.json())
-      .then(response => { setLink("https://heystrike.github.io/ComAmor/" + response.id); handleChange('loading', false) })
+      .then(response => { setLink("https://with-love-for-bell.vercel.app/" + response.id); handleChange('loading', false) })
   }
 
   return (
